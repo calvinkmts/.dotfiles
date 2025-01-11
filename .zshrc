@@ -123,7 +123,11 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 export PATH=$HOME/bin:$PATH
 
-. "/home/ckamtoso/.deno/env"
+# Get the username dynamically
+USER=$(whoami)
+. "/home/$USER/.deno/env"
 
-# [[ -s "/home/ckamtoso/.gvm/scripts/gvm" ]] && source "/home/ckamtoso/.gvm/scripts/gvm"
-alias config='/usr/bin/git --git-dir=/home/ckamtoso/.cfg/ --work-tree=/home/ckamtoso'
+# Adguard CLI helper
+[ -s "/opt/adguardvpn_cli/bash-completion.sh" ] && \. "/opt/adguardvpn_cli/bash-completion.sh"
+
+alias config='/usr/bin/git --git-dir=/home/$USER/.cfg/ --work-tree=/home/$USER'
