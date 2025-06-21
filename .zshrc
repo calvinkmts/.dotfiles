@@ -79,7 +79,6 @@ plugins=(
     python
     docker-compose
     you-should-use
-    virtualenv
     poetry
     zsh-syntax-highlighting
 )
