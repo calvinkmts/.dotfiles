@@ -1,0 +1,10 @@
+# Changelog
+
+## 2025-06-22
+
+### Added
+
+- Lua scripts instead of vimscript for Nvim configuration.
+- Added lazy.Nvim for plugin manager.
+
+
