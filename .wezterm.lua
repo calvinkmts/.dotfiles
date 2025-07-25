@@ -11,10 +11,12 @@ end)
 
 -- This is where you actually apply your config choices.
 
-config.window_background_image = '/home/calvink/Pictures/Wallpapers/__katsuragi_misato_neon_genesis_evangelion_and_1_more_drawn_by_vitamincera__f3fd20f9394a7f8bbe53b6a0df37e99a.jpg'
+local bg_img_path = '/home/calvink/Pictures/Wallpapers/agnes_tachyon_umamusume_drawn_by_myticalcat.png'
+
+config.window_background_image = bg_img_path
 
 config.window_background_image_hsb = {
-    brightness = 0.1,
+    brightness = 0.03,
     hue = 1.0,
     saturation = 1.0,
 }
