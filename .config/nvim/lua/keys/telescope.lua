@@ -9,3 +9,6 @@ function M.setup()
 
     map('n', '<leader>pfg', builtin.git_files, 'Telescope: Find Project Files (git)')
 end
+
+return M
+

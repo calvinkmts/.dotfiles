@@ -9,5 +9,5 @@ return {
         telescope.setup(opts)
 
         require('keys.telescope').setup()
-    end
+    end,
 }
