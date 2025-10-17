@@ -11,7 +11,7 @@ end)
 
 -- This is where you actually apply your config choices.
 
-local bg_img_path = '/home/calvink/Pictures/Wallpapers/agnes_tachyon_umamusume_drawn_by_myticalcat.png'
+local bg_img_path = '/home/calvink/Pictures/Wallpapers/GewhS2MacAAYHUx.jpg'
 
 config.window_background_image = bg_img_path
 
