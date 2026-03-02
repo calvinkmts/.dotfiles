@@ -1,0 +1,6 @@
+{
+    "Vikunja": {
+        "ApiUrl": "http://127.0.0.1:3456/api/v1/",
+        "ApiToken": ""
+    }
+}
